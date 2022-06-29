@@ -26,9 +26,11 @@ export default function Home() {
             const { id, title, description, image, price } = service
             return (
               <li key={id} className={styles.card}>
-                className={styles.card}><h2>{title}</h2>
-                <p>{description}</p>
-                <p>{price}</p>
+                <span className={styles.card}>
+                  <h2>{title}</h2>
+                  <p>{description}</p>
+                  <p>{price}</p>
+                </span>
               </li>
             )
           })}
