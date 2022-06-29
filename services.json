@@ -1,0 +1,31 @@
+[
+  {
+    "id": "price_1LG9ecJLeFEV18BERZeEBfvl",
+    "title": "Basic",
+    "description": "Modern, user-friendly, fast website - Premium package from Elements",
+    "image": "",
+    "price": 699.0
+  },
+  {
+    "id": "price_1IzXaKJLeFEV18BEF8Quy9nl",
+    "title": "Core",
+    "description": "Modern, user-friendly, fast website - Premium package from Elements",
+    "image": "",
+    "price": 899.0
+  },
+
+  {
+    "id": "price_1IzXl2JLeFEV18BEUmxakaei",
+    "title": "Premium",
+    "description": "Modern, user-friendly, fast website - Premium package from Elements",
+    "image": "",
+    "price": 1599.0
+  },
+  {
+    "id": "price_1LG9d9JLeFEV18BERrJpjf12",
+    "title": "Premium Plus",
+    "description": "Modern, user-friendly, fast website with additional custom features- Premium package from Elements",
+    "image": "",
+    "price": 1999.0
+  }
+]
