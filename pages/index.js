@@ -26,11 +26,9 @@ export default function Home() {
             const { id, title, description, image, price } = service
             return (
               <li key={id} className={styles.card}>
-                <Link href="/" className={styles.card}>
-                  <h2>{title}</h2>
-                  <p>{description}</p>
-                  <p>{price}</p>
-                </Link>
+                className={styles.card}><h2>{title}</h2>
+                <p>{description}</p>
+                <p>{price}</p>
               </li>
             )
           })}
@@ -38,12 +36,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a href="/" target="_blank" rel="noopener noreferrer">
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <p>Elememts Web Services and Design</p>
       </footer>
     </div>
   )
